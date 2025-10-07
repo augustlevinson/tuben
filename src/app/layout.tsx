@@ -20,7 +20,7 @@ const bitcount = Bitcount({
 
 export const metadata: Metadata = {
 	title: "Tuben",
-	description: "Kolla nästa avgång",
+	description: "Se kommande avgångar",
 };
 
 export default function RootLayout({

@@ -36,7 +36,7 @@ export default function StationCombobox({ value, onChange }: StationComboboxProp
 					variant="outline"
 					role="combobox"
 					aria-expanded={open}
-					className="w-full justify-between text-[1.5vw] h-auto py-2">
+					className="w-full justify-between text-m sm:text-3xl h-auto py-2">
 					{selectedStation ? (
 						<span>
 							{selectedStation.name}
@@ -62,7 +62,7 @@ export default function StationCombobox({ value, onChange }: StationComboboxProp
 					}}>
 					<CommandInput placeholder="Sök station..." />
 					<CommandList>
-						<CommandEmpty>No station found.</CommandEmpty>
+						<CommandEmpty>Inga träffar...</CommandEmpty>
 						<CommandGroup>
 							{sortedStations.map((station) => (
 								<CommandItem

@@ -10,9 +10,9 @@ export default function Departure({ lineId, stationName, timeUntilDeparture }: D
 
 	return (
 		<div className="grid grid-cols-24 w-full">
-			<p className="col-span-4 font-display text-amber-500 text-[5vw]">{lineId}</p>
-			<p className="col-span-14 font-display text-amber-500 text-[5vw]">{stationName}</p>
-			<p className="col-span-6 font-display text-amber-500 text-[5vw] text-end">
+			<p className="col-span-4 font-display text-amber-500 text-[3vw]">{lineId}</p>
+			<p className="col-span-14 font-display text-amber-500 text-[3vw]">{stationName}</p>
+			<p className="col-span-6 font-display text-amber-500 text-[3vw] text-end">
 				{timeUntilDeparture}
 			</p>
 		</div>

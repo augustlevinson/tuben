@@ -60,7 +60,7 @@ export default function StationCombobox({ value, onChange }: StationComboboxProp
 
 						return nameMatch || abbrMatch ? 1 : 0;
 					}}>
-					<CommandInput placeholder="Search station..." />
+					<CommandInput placeholder="Sök station..." />
 					<CommandList>
 						<CommandEmpty>No station found.</CommandEmpty>
 						<CommandGroup>

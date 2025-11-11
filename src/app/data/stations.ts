@@ -13,6 +13,18 @@ export interface Station {
 
 export const stations: Station[] = [
 	{
+		id: 9001,
+		gid: 9091001000009000,
+		name: "T-Centralen",
+		alias: ["Tcentralen"],
+		abbreviation: "TCE",
+		lat: 59.3313754153065,
+		lon: 18.0604334292973,
+		valid: {
+			from: "2018-11-23T00:00:00",
+		},
+	},
+	{
 		id: 9140,
 		gid: 9091001000009140,
 		name: "Skarpnäck (t-banan)",

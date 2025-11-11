@@ -14,7 +14,7 @@ export default function Home() {
 				</div>
 				<UpcomingDepartures station={station} />
 			</main>
-			<footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+			<footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center text-sm">
 				<a href="https://augustlevinson.com">&copy; August Levinson</a>
 			</footer>
 		</div>
